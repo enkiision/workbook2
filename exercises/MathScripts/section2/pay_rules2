@@ -1,0 +1,8 @@
+"use strict";
+
+var payRate = 20.0;
+var hoursWorked = 40;
+var grossPay = //800.0;
+
+console.log(grossPay = payRate * hoursWorked);
+

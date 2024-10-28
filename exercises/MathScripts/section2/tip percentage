@@ -1,0 +1,11 @@
+"use strict";
+
+// tip = "total check $"*"1+.20" === tc$*1.18
+
+var totalCheck = 100;
+var tipPercentage = 1.2;
+var total = totalCheck * tipPercentage;
+var tipPayment = total - totalCheck;
+console.log("The tip on a $" + totalCheck + " bill" + " is $" + tipPayment);
+//remember to include spaces, plus signs and work on fixed items
+//understood oct/9/24

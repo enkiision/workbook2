@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/pico.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <title>First Calculator</title>
+  </head>
+  <body>
+    <main>
+      <h1>Welcome to my first calculator!</h1>
+      <label for="number1Input">Number 1</label>
+      <input type="number" id="number1Input" />
+      <label for="number2Input">Number 2</label>
+      <input type="number" id="number2Input" />
+      <label for="numberTotal">Answer</label>
+      <input type="number" id="numberTotal" />
+      <button onclick="addNumber">Add</button>
+      <button onclick="subtractNumber">Subtract</button>
+      <button onclick="multiplyNumber">Multiply</button>
+      <button onclick="divideNumber">Divide</button>
+    </main>
+    <script>
+      const number1Input = document.getElementById('number1Input')
+      const number2Input = document.getElementById("number2Input")
+      const numberTotal = document.getElementById('numberTotal')
+
+      function add(number1Input + number2Input ){
+          let Number1 =Number(number1Input.value);
+        let Number2 = Number(number2Input.value);
+
+      numberTotal.innerText = Number1 + Number2;
+      }
+
+      // console.log(Number1 + Number2 = Total);
+    </script>
+    <footer>@copy Enki Vision</footer>
+  </body>
+</html>

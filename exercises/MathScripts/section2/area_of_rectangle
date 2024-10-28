@@ -1,0 +1,9 @@
+"use strict";
+
+//area of a rectangle formula: Area= A, W= Width, L=Length: >>> A = w*l
+
+var Width = 10;
+var Length = 20;
+var total = Width * Length;
+console.log("The area of a rectangle is " + total + " inches");
+//understood oct/8/24
